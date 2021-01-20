@@ -50,14 +50,13 @@ exports.createData = (req, res) => {
         }
     }
 
-    fs.writeFile(
-        "../healthood-app/src/data.json",
-        JSON.stringify(data),
-        function (err) {
-            if (err) throw err;
+    fs.writeFile("../src/data.json", JSON.stringify(data), function (err) {
+        if (err) {
             console.log("Data Updated");
+            res.send("Error while creating");
+            throw err;
         }
-    );
+    });
 
     res.send("Created data");
 };
