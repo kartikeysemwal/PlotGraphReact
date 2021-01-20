@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Time",
+        "type": "date",
+        "format": "%H:%M:%S"
+    },
+    {
+        "name": "Type",
+        "type": "string"
+    },
+    {
+        "name": "Blood Pressure",
+        "type": "number"
+    }
+]
