@@ -7,13 +7,6 @@ import schema from "../schema.json";
 
 ReactFC.fcRoot(FusionCharts, TimeSeries);
 
-// const jsonify = (res) => res.json();
-
-// Systolic 80 160
-// Diastolic 40 120
-
-// console.log(data);
-
 var len = data.length;
 
 for (var i = 0; i < len; i = i + 2) {

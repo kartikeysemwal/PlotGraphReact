@@ -2,7 +2,7 @@
     {
         "name": "Time",
         "type": "date",
-        "format": "%H:%M:%S"
+        "format": "%Y-%m-%d %H:%M:%S"
     },
     {
         "name": "Type",
